@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "scorebar">
+        <div class = "score-box-container">
+            <div class = "score-title"> Player 1 </div>
+            <div class = "score-box" id = "sc1"> 12 </div>
+        </div>
+
+        <div class = "sc-title"> Scores</div>
+
+        <div class = "score-box-container">
+            <div class = "score-title"> Player 2 </div>
+            <div class = "score-box" id = "sc2"> 14 </div>
+        </div>
+
+    </div>
+
+    <h1>
+        Player Winning msg🚩
+    </h1>
+
+    <div class = "dices-container">
+        <!-- Player 1 -->
+        <div class = "single-dice-container" id = "d1">
+            <div class = "dice-title">
+                Player 1
+            </div>
+            <div>
+                <img src="./images/dice1.png" alt="Player 1 dice">
+            </div>
+        </div>
+
+        <!-- Player 2 -->
+        <div class = "single-dice-container" id = "d2">
+            <div class = "dice-title">
+                Player 2
+            </div>
+            <div>
+                <img src="./images/dice1.png" alt="Player 2 dice">
+            </div>
+        </div>
+
+    </div>
+
+    <div class = "btn-div">
+        <button onclick = "rollDice()" class = "btn">Roll</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
